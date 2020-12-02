@@ -208,13 +208,13 @@ for (let x = 0; x < input.length; x++) {
         const numY = input[y];
 
         if (numX + numY === 2020) {
-            console.log(numX * numY);
+            console.log('Answer part 1', numX * numY);
         }
 
         for (let z = y + 1; z < input.length; z++) {
             const numZ = input[z];
             if (numX + numY + numZ === 2020) {
-                console.log(numX * numY * numZ);
+                console.log('Answer part 2', numX * numY * numZ);
             }
         }
     }
